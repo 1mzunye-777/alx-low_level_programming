@@ -1,13 +1,5 @@
 #ifndef CALC_H
 #define CALC_H
-
-/*
- * File: 3-calc.h
- * 
- * Desc: Header file containing all structures and
- *       prototypes used by the 3-main.c program.
- */
-
 /**
  * struct op - A struct op.
  * @op: The operator.
@@ -27,3 +19,4 @@ int op_mod(int a, int b);
 int (*get_op_func(char *s))(int, int);
 
 #endif
+
